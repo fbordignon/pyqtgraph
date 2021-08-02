@@ -264,13 +264,14 @@ from .Vector import Vector
 from .SRTTransform import SRTTransform
 from .Transform3D import Transform3D
 from .SRTTransform3D import SRTTransform3D
+from . import debug, reload
 from .functions import *
 from .graphicsWindows import *
 from .SignalProxy import *
 from .colormap import *
 from .ptime import time
 from .Qt import isQObjectAlive
-from .ThreadsafeTimer import *
+from . import ThreadsafeTimer
 
 # indirect imports used within library
 from .GraphicsScene import GraphicsScene
